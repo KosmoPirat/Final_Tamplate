@@ -1,0 +1,23 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 1920px;
+	font-family: "Montserrat-ExtraLight", Arial, Helvetica, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "Raleway-Regular", Arial, Helvetica, sans-serif;
+}
+
+/*Start Header*/
+.main-header{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	position: absolute;
+}
