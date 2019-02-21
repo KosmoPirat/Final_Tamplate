@@ -28,12 +28,23 @@ h1,h2,h3,h4,h5,h6{
 	top: 40px;
 	left: 376px;
 }
+.main-header a{
+	text-decoration: none;
+}
 .logo_icon{
 	fill: #fff;
+	font-family: "Raleway-Regular", Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	width: 200px;
+	height: 100%;
 }
-.logo-full img{
-	margin-bottom: 14px;
+.logo_icon:hover{
+	fill: #c7b29a;
 }
+.logo_icon:active{
+	fill: #997A56;
+}
+
 .main-nav-wrap{
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -96,12 +107,84 @@ h1,h2,h3,h4,h5,h6{
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	padding: 100px 30px 0 30px;
 	width: 1230px;
 	justify-content: center;
-	margin: 0 auto;
+	margin: auto;
+	margin-bottom: 160px;
+	margin-top: 88px;
 }
+
 .servises-item{
 	text-align: center;
+	padding: 0 10px 0 10px;
+}
+
+.servises-item:hover .servises-icon{
+	fill: #c7b299;
+}
+.servises-item:hover .servises-item-content h4{
+	color: #c7b299;
+}
+.servises-item:hover .servises-item-content:after{
+	background-color: #c7b299;
+}
+
+.servises-item:active .servises-icon{
+	fill: #8C6F4E;
+}
+.servises-item:active .servises-item-content h4{
+	color: #8C6F4E;
+}
+.servises-item:active .servises-item-content:after{
+	background-color: #8C6F4E;
+}
+
+.servises-icon{
+	fill: #555555;
+	margin-bottom: 20px;
+}
+.servises-item-content{
+	display: block;
+	position: relative;
+	margin-bottom: 28px;
+	text-decoration: none;
+}
+.servises-item-content:after{
+	content: "";
+	position: absolute;
+	width: 70px;
+	height: 3px;
+	background-color: #f1eee9;
+	bottom: -15%;
+	left: 40%;
+}
+.servises-item h4{
+	color:  #555555;
+	font-size: 22px;
+	font-weight: 600;
+	font-family: "Raleway-SemiBold", Arial, Helvetica, sans-serif;
+	margin-bottom: 12px;
+
+}
+
+.servises-item p{
+	color:  #8c8c8c;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 24px;
+	font-family: "Montserrat-Light", Arial, Helvetica, sans-serif;
 }
 /*End section servises*/
+
+/*Start section waxom*/
+.waxom{
+	width: 1230px;
+	margin: 0 auto;
+	text-align: center;
+}
+.waxom-content h2{
+	color:  #555555;
+	font-size: 30px;
+	font-weight: 600;
+}
+/*End section waxom*/
