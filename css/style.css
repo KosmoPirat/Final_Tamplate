@@ -14,6 +14,61 @@ h1,h2,h3,h4,h5,h6{
 	font-family: "Raleway-Regular", Arial, Helvetica, sans-serif;
 }
 
+@font-face {
+	font-family:'Raleway-Regular';
+	src:url(../fonts/Raleway/Raleway-Regular.ttf);
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family:'Raleway-Medium';
+	src:url(../fonts/Raleway/Raleway-Medium.ttf);
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family:'Raleway-SemiBold';
+	src:url(../fonts/Raleway/Raleway-SemiBold.ttf);
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family:'Raleway-SemiBold';
+	src:url(../fonts/Raleway/Raleway-Bold.ttf);
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family:'Raleway-SemiBold';
+	src:url(../fonts/Raleway/Raleway-Bold.ttf);
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family:'Montserrat-Regular';
+	src:url(../fonts/Montserrat/Montserrat-Regular.ttf);
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family:'Montserrat-ExtraLight';
+	src:url(../fonts/Montserrat/Montserrat-ExtraLight.ttf);
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face {
+	font-family:'Montserrat-Light';
+	src:url(../fonts/Montserrat/Montserrat-Light.ttf);
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family:'Roboto-Regular';
+	src:url(../fonts/Roboto/Roboto-Regular.ttf);
+	font-weight: 400;
+	font-style: normal;
+}
+
 /*Start Header*/
 .main-header{
 	display: -webkit-flex;
@@ -248,3 +303,175 @@ h1,h2,h3,h4,h5,h6{
 	border-bottom: 3px solid #998675;
 }
 /*End section waxom*/
+
+/*Start latest-projects*/
+.latest-projects-wrap{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 80px;
+}
+.latest-projects-wrap h2{
+	width: 100%;
+	color:  #555555;
+	font-size: 30px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 12px;
+}
+.latest-projects-wrap p{
+	color:  #8c8c8c;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 28px;
+	padding: 0 28% 0 28%;
+	text-align: center;
+	font-family:'Montserrat-Light';
+	margin-bottom: 30px;
+}
+.latest-projects-control-btn{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.latest-projects-control-btn button{
+	color:  #8c8c8c;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 21px;
+	text-align: center;
+	border: 1px solid #ebebeb;
+	border-radius: 3px;
+	background: none;
+	padding: 3px 22px 3px 22px;
+	margin: 2px;
+}
+.latest-projects-control-btn button:hover{
+	border-radius: 3px;
+	background-color:  #998675;
+	color: #fff;
+}
+.latest-projects-control-btn button:active{
+	border-radius: 3px;
+	background-color:  #998675;
+	color: #fff;
+}
+
+.latest-projects-item-wrap{
+	width: 1170px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.latest-projects-item{
+	margin-bottom: 30px;
+}
+
+.latest-projects-item-link{
+	text-decoration: none;
+	position: relative;
+	display: block;
+}
+
+.latest-projects-item-icon-link,.latest-projects-item-icon-search{
+	position: absolute;
+	visibility: hidden;
+	fill: #fff;
+	z-index: 100;
+}
+
+.latest-projects-item-icon-link{
+	top: 108px;
+	left: 198px;
+}
+
+.latest-projects-item-icon-search{
+	top: 108px;
+	left: 146px;
+}
+
+.latest-projects-item-link:hover img{
+	filter: brightness(.5);
+}
+
+.latest-projects-item-link:hover .latest-projects-item-content{
+	background-color: #362f2d;
+}
+
+.latest-projects-item-link:hover .latest-projects-item-content:before{
+		border: 14px solid transparent;
+	border-bottom: 11px solid #362f2d;
+}
+
+.latest-projects-item-link:hover h5{
+	color: #fff;
+}
+
+.latest-projects-item-link:hover p{
+	color: #c7b299;
+}
+
+.latest-projects-item-link:hover svg{
+	visibility: visible;
+}
+
+.latest-projects-item-icon-link:hover {
+	fill: #c7b299;
+}
+
+.latest-projects-item-icon-search:hover{
+	fill: #c7b299;
+}
+
+.latest-projects-item img{
+	display: block;
+}
+
+.latest-projects-item-content{
+	position: relative;
+	padding: 30px;
+	background-color: #fbfaf8;
+}
+.latest-projects-item-content:before{
+	position: absolute;
+	content: "";
+	display: block;
+	border: 14px solid transparent;
+	border-bottom: 11px solid #fbfaf8;
+	top: -25px;
+	left: 28px;
+}
+
+.latest-projects-item-content h5{
+	color:  #c7b29a;
+	font-size: 20px;
+	font-weight: 500;
+}
+.latest-projects-item-content p{
+	color:  #d1d1d1;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 20px;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+}
+/*End latest-projects*/
