@@ -37,13 +37,7 @@
 @font-face {
 	font-family:'Montserrat-ExtraLight';
 	src:url(../fonts/Montserrat/Montserrat-ExtraLight.ttf);
-	font-weight: 300;
-	font-style: normal;
-}
-@font-face {
-	font-family:'Montserrat-Light';
-	src:url(../fonts/Montserrat/Montserrat-Light.ttf);
-	font-weight: 300;
+	font-weight: 200;
 	font-style: normal;
 }
 @font-face {
