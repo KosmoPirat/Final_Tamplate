@@ -585,3 +585,62 @@ h1,h2,h3,h4,h5,h6{
 	left: 56px;
 }
 /*End for-mobile section*/
+
+/*Start stat-data section*/
+.stat-data{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	background: -webkit-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+	background: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+	background: -o-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+	background: -ms-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+	background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+}
+
+.stat-data-item{
+	margin: 70px 30px 50px 30px;
+	position: relative;
+	width: 135px;
+}
+.stat-data-item-text:after{
+	content: "";
+	display: block;
+	position: absolute;
+	background-color:  #ffffff;
+	width: 30px;
+	height: 2px;
+	bottom: 10px;
+	left: 50px;
+}
+
+.stat-data-item-icon{
+	fill: #c7b299;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.stat-data-item-count{
+	display: block;
+	text-align: center;
+	color:  #ffffff;
+	font-size: 48px;
+	font-weight: 200;
+	line-height: 36px;
+	margin-bottom: 20px;
+}
+.stat-data-item-text{
+	display: block;
+	text-align: center;
+	color:  #c7b299;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 20px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+/*End stat-data section*/
