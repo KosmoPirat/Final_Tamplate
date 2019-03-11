@@ -3,16 +3,16 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Final Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/all.min.css">
-	<link rel="stylesheet" href="css/style-slider.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<header class="slider-container">
 		<div class="main-header">
-			<a href="#">
-				<svg class="logo_icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="4 5 205 65" xml:space="preserve">
+			<a class="logo_icon" href="#">
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="4 5 205 65" xml:space="preserve">
 					<g>
 						<path d="M56.9,61.4l5.3-9.2l5.3,9.2H56.9z M50.3,51.5h10.5l-5.3,9.2L50.3,51.5z M55.6,40.7l5.3,9.2H50.3L55.6,40.7z M43.7,40h10.5L49,49.2L43.7,40z M49,29.3l5.3,9.2H43.7L49,29.3z M37.2,28.5h10.5l-5.3,9.2L37.2,28.5z M42.4,17.8l5.3,9.2H37.2 L42.4,17.8z M30.6,17h10.5l-5.3,9.2L30.6,17z M35.8,6.3l5.3,9.2H30.6L35.8,6.3z M24,27l5.3-9.2l5.3,9.2H24z M17.5,38.4l5.3-9.2 l5.3,9.2H17.5z M10.9,49.9l5.3-9.2l5.3,9.2H10.9z M4.3,61.4l5.3-9.2l5.3,9.2H4.3z M21.4,51.5l-5.3,9.2l-5.3-9.2H21.4z M28,40 l-5.3,9.2L17.5,40H28z M34.5,28.5l-5.3,9.2L24,28.5H34.5z M41.1,61.4H30.6l5.2-9.2L41.1,61.4z M47.7,51.5l-5.3,9.2l-5.3-9.2H47.7z M54.2,61.4H43.7l5.3-9.2L54.2,61.4z"></path>
 						<text transform="matrix(1 0 0 1 72 49)">W</text>
@@ -23,6 +23,14 @@
 					</g>
 				</svg>
 			</a>
+			<a class="logo_icon-mobile" href="#">
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="4 5 205 65" xml:space="preserve">
+						<path d="M56.9,61.4l5.3-9.2l5.3,9.2H56.9z M50.3,51.5h10.5l-5.3,9.2L50.3,51.5z M55.6,40.7l5.3,9.2H50.3L55.6,40.7z M43.7,40h10.5L49,49.2L43.7,40z M49,29.3l5.3,9.2H43.7L49,29.3z M37.2,28.5h10.5l-5.3,9.2L37.2,28.5z M42.4,17.8l5.3,9.2H37.2 L42.4,17.8z M30.6,17h10.5l-5.3,9.2L30.6,17z M35.8,6.3l5.3,9.2H30.6L35.8,6.3z M24,27l5.3-9.2l5.3,9.2H24z M17.5,38.4l5.3-9.2 l5.3,9.2H17.5z M10.9,49.9l5.3-9.2l5.3,9.2H10.9z M4.3,61.4l5.3-9.2l5.3,9.2H4.3z M21.4,51.5l-5.3,9.2l-5.3-9.2H21.4z M28,40 l-5.3,9.2L17.5,40H28z M34.5,28.5l-5.3,9.2L24,28.5H34.5z M41.1,61.4H30.6l5.2-9.2L41.1,61.4z M47.7,51.5l-5.3,9.2l-5.3-9.2H47.7z M54.2,61.4H43.7l5.3-9.2L54.2,61.4z">
+						</path>
+				</svg>
+			</a>
+			<label class="mob-menu-ladel" for="mob-menu"></label>
+    		<input class="mob-menu-checkbox" id="mob-menu" type="checkbox" >
 			<nav class="main-nav-wrap">
 				<ul class="main-nav-menu">
 					<li class="main-nav-menu_item"><a href="#">Home</a></li>
@@ -314,13 +322,13 @@
 		<div class="for-mobile-content">
 			<h2>Excellent for Mobile Devices.</h2>
 			<p>Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
-			<ul class="for-mobile-content-list">
-				<li>Nam liber tempor cum soluta nobis eleifend option;</li>
-				<li>Option congue nihil imperdiet doming id quod mazim placerat facer;</li>
-				<li>Eodem modo typi, qui nunc nobis videntur parum futurum;</li>
-				<li>Investigationes demonstraverunt lectores</li>
-			</ul>
 		</div>
+		<ul class="for-mobile-content-list">
+			<li>Nam liber tempor cum soluta nobis eleifend option;</li>
+			<li>Option congue nihil imperdiet doming id quod mazim placerat facer;</li>
+			<li>Eodem modo typi, qui nunc nobis videntur parum futurum;</li>
+			<li>Investigationes demonstraverunt lectores</li>
+		</ul>
 	</section>
 	<section class="stat-data">
 		<div class="stat-data-item">
